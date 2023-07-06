@@ -28,7 +28,12 @@ Completed a comprehensive data analytics migration project for Skyscanner, start
 
 5. Created Tableau reports:
     - Developed Tableau reports to visualize various aspects of the flight data: Using the functionalities of Tableau Desktop, I created informative and visually appealing reports to analyze and present insights from the flight data. The reports covered different aspects, such as historical flight origins and destinations, average distance traveled by flights, most used flight numbers, and flight delays and cancellations. These reports provide top management with valuable visualizations and interactive dashboards for strategic decision-making based on real-time data. 
-
+    ![Alt text](Top_flight_dest.png)
+    ![Alt text](AVG_distance_by_carrier.png)
+    ![Alt text](Top_5_flightnum_and_dest.png)
+    ![Alt text](Highest_Arrival_Delay.png)
+    ![Alt text](Highest_Dep_Delay.png)
+    ![Alt text](Airport_with_Most_Cancelled_flights.png)
 
 Overall, this project showcases a well-structured and comprehensive approach to handling and analyzing large flight datasets. By leveraging tools like Pandas, PostgreSQL, AWS RDS, and Tableau, I successfully migrated the data, ensuring its cleanliness, integrity, and accessibility. The use of cloud services, such as AWS S3 for storage and AWS RDS for database hosting, contributes to efficient data management and scalability. The integration with Tableau empowers top management at Skyscanner to gain valuable insights from real-time visualizations and reports, enabling informed decision-making for strategic purposes.
 
