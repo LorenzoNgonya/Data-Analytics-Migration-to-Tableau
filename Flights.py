@@ -68,6 +68,7 @@ for df in df_list:
     df.fillna(0 ,inplace = True)
     clean_df_list.append(df)
 
+# this section checks for clean data frames and the number of columns each dataframe has
 for df in clean_df_list:
     print('Checking columns in data_frame')
     columns = df.columns.to_list()
@@ -76,6 +77,7 @@ for df in clean_df_list:
     print(f'There are {total_num_of_columns} total columns in this data_frame')
     print('-' * 150)
     
+# this sections combines all the dataframes into one big dataframe and makes sure all the columns are equal
 print(f'Now concatenating the different dataframes')
 df = pd.concat(clean_df_list).reset_index(drop=True)
 number_of_rows = df.shape[0]
