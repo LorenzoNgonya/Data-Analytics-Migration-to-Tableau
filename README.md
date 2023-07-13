@@ -30,7 +30,6 @@ A comprehensive data analytics migration project for Skyscanner, starting from i
     - Developed Tableau reports to visualize various aspects of the flight data: Using the functionalities of Tableau Desktop, and created informative and visually appealing reports to analyze and present insights from the flight data. The reports covered different aspects, such as historical flight origins and destinations, average distance traveled by flights, most used flight numbers, and flight delays and cancellations. These reports provide top management with valuable visualizations and interactive dashboards for strategic decision-making based on real-time data. 
     ![Alt text](flight_origins_destinations.png)
     ![Alt text](average_distance_travelled.png)
-    ![Alt text](most_used_flight_numbers.png)
     ![Alt text](delays_and_cancellations_1.png)
     ![Alt text](delays_and_cancellations.png)
     ![Alt text](delays_and_cancellations2.png)
